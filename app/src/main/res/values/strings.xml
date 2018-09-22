@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="hello_world" translatable="false">Hello World</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_temperature_units">Temperature Units</string>
+    <string name="pref_units_key">units</string>
+    <string name="pref_location_default">60171</string>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+
+
+    <string-array name="listMeasure">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array><string-array name="listValues">
+        <item>@string/pref_units_metric</item>
+        <item>@string/pref_units_imperial</item>
+    </string-array>
+</resources>
